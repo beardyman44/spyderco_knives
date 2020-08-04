@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <header id="header" class="header"> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+        <nav id="nav-bar">
+            <img id="header-img" class="photo" alt="All About Spyderco Knives – Knife Depot" src="https://cdn.shopify.com/s/files/1/0004/8893/1386/t/4/assets/logo-large.png"> 
+            <ul>
+               <li><a href="#newsletter" class="nav-link"> Newsletter</a></li>
+               <li><a href="#about" class="nav-link"> About The Product</a></li>
+               <li><a href="#buy" class="nav-link"> Buy Spyderco Knives</a></li>
+            </ul>
+        </nav>
+       
+    </header>       
+<head> 
+    <title>Spyderco Knives</title>
+    <style>
+        .header {
+            background-color: rgba(27, 22, 22, 0.205);
+            display: flex;
+            position: fixed;
+            width: 100%;
+            padding: 1em;
+            height: 100px;
+        }
+
+        header::after {
+            clear: both;
+            content: '';
+        }
+
+        #header-img {
+            float: left;
+            padding-top: 1.7em;
+            width: 400px; 
+            height: 70px; 
+            }
+
+        nav {
+            display: flex;
+            font-size: 20px;
+            position: fixed;
+            top: 0; 
+            left: 0;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            float: left;
+            line-height: 100px;
+        }
+
+        nav ul li a {
+            display: block;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: stretch;
+            color: rgb(117, 5, 5);
+            margin: 10px;
+            padding-top: 40px;
+        }
+
+        .flex-container ul {
+            list-style-type: none;
+        }
+
+        .box1 {
+            border: 5px solid rgb(117, 5, 5);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(151, 90, 37, 0.61);
+        }
+
+        .box2 {
+            border: 5px solid rgb(117, 5, 5);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(151, 90, 37, 0.61);
+        }
+
+        .box3 {
+            border: 5px solid rgb(117, 5, 5);    
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(151, 90, 37, 0.61);
+        }
+
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: darkblue;
+            font-family: fantasy;
+            padding-top: 200px;
+        }
+
+        h2 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .body {
+            background-color: rgba(120, 120, 209, 0.562);
+        }
+
+        @media only screen and (min-width: 768px) {
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+
+    </style>
+</head> 
+    <body class="body">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+        <div id="main">
+            <h1 id="title">Spyderco Knives</h1>
+            <p id="description">If you want a newletter detailing the latest Spyderco products, please give us your Email.</p>    
+           
+        </div>
+        <section id="newsletter">
+        <form id="form" class="form" action=" https://www.freecodecamp.com/email-submit">
+                <p>Email:</p>
+                <input type="email" id="email" name="email" placeholder="ex.John@gmail.com" required><br>
+                <input type="submit" value="Submit" id="submit"><br>
+        </form><br>
+        </section>  
+        <section id="about">
+        <div class="flex-container">
+            <div class="box1"><h3><u>Funtion</u></h3>
+                <ul>
+                    <li>Convenient Open Mechanism</li><br>
+                    <li>Well Thought Blade Designs</li><br>
+                    
+                </ul>
+            </div>
+            <div class="box2"><h3><u>Design</u></h3>
+                <ul>
+                    <li>Comes in many different colors</li><br>
+                    <li>A variety of blade designs that have differnt purposes</li>
+                </ul>
+            </div>
+            <div class="box3"><h3><u>Price</u></h3>
+                <ul>
+                    <li>Great Price For A Quality Product</li><br>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <h2>Why choose a Spyderco knife?</h2>
+        <iframe id="video" class="video" width="853" height="480" src="https://www.youtube.com/embed/gwlm97zJxXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <section id="buy">
+        <a id="offical" href="https://www.spyderco.com/">Offical Website</a><br>
+        <a id="amazon" href="https://www.amazon.com/Spyderco-Tenacious-Folding-Stainless-Durable/dp/B084WZ8J54">Buy on Amazon</a> 
+        </section>
+    </body>
+</html>
